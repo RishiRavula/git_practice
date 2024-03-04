@@ -13,7 +13,5 @@ if __name__ == "__main__":
     root = TreeNode(4,
                     TreeNode(2, TreeNode(1), TreeNode(3)),
                     TreeNode(6, TreeNode(5), TreeNode(7)))
-    # how do you sort a binary tree???    
-    #You're going to have a bad time...    
     sorted_values = inOrderTraversal(root)
     print(sorted_values)  # out: [1, 2, 3, 4, 5, 6, 7]
