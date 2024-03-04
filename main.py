@@ -14,5 +14,6 @@ if __name__ == "__main__":
                     TreeNode(2, TreeNode(1), TreeNode(3)),
                     TreeNode(6, TreeNode(5), TreeNode(7)))
     # You can use inOrderTraversal to get the sorted values of the tree
+    # add some things here!
     sorted_values = inOrderTraversal(root)
     print(sorted_values)  # out: [1, 2, 3, 4, 5, 6, 7]
